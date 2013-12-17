@@ -23,6 +23,6 @@ console.log($(window).width());
 
  $(window).resize(function(){
     $('width').text($(window).width());
-    console.log('Width: ' $(window).width());
+    console.log('Width: ', $(window).width());
 	});
 
