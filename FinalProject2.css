@@ -1,47 +1,109 @@
 @media screen {
-	body {padding:1em; background-image: url(nycskyline.jpg); background-repeat: no-repeat;}
+body {padding:1em; 
+	background-image: url(nycskyline.jpg); 
+	background-repeat: no-repeat;}
 	
-	.banner {text-align:center; font-size:3em; letter-spacing:20px; letter-spacing:10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:0px; color:red;}
+.banner {text-align:center; 
+	font-size:3em; 
+	letter-spacing:20px; 
+	letter-spacing:10px; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	margin-top:0px; 
+	color:red;}
 	
-	img {max-width:100%;}
+img {max-width:100%;}
 	
-	.col_A {padding:10px; margin-bottom:20px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:0.9em;}
+.col_A {padding:10px; 
+	margin-bottom:20px; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:0.9em;}
 	
-	.col_B {padding:10px; margin-bottom:20px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:0.9em;}
+.col_B {padding:10px; 
+	margin-bottom:20px; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:0.9em;}
 	
-	footer {border-top:2px solid black; clear:both;}
-		.site-footer {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:small; position:relative; padding:10px;}
+footer {border-top:2px solid black; 
+	clear:both;}
 	
-	ul {list-style-type:none; margin:0; padding:0; clear:left;}
-		ul li {float:left; width:100%;}
-		ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.site-footer {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:small; 
+	position:relative; 
+	padding:10px;}
+	
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:100%;}
+		
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
-	@-webkit-keyframes pulse {15% {-webkit-transform:translate(10px, 10px) scale(1.15);} }
-		.timessquare {transition:all 1s ease-in-out; -webkit-animation:pulse 3s ease-in-out infinite;}
+@-webkit-keyframes pulse {15% {-webkit-transform:translate(10px, 10px) scale(1.15);} }
+		.timessquare {transition:all 1s ease-in-out; 
+		-webkit-animation:pulse 3s ease-in-out infinite;}
 	
-	.radiocity:hover {-webkit-transform:skewX(20deg);}
+.radiocity:hover {-webkit-transform:skewX(20deg);}
+
 	}
 
 @media screen and (min-width: 700px){
-	.A {overflow:hidden; clear:left;}
-	.B {overflow:hidden; clear:left;}
+
+	.A {overflow:hidden; 
+		clear:left;}
+	.B {overflow:hidden; 
+		clear:left;}
 	
-	.col_A {float:left; width:27%;}
+	.col_A {float:left; 
+		width:27%;}
 		.col1 {margin-right:3.5%;}
 		.col2 {margin-right:3.5%;}
 	
-	.col_B {float:left; width:46%;}
+	.col_B {float:left; 
+		width:46%;}
 		.col3 {margin-right:2%;}
 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-	ul li {float:left; width:50%;}
-	ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:50%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 	}
 
-@media screen and (min-width: 900px) {    
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-		ul li {float:left; width:25%;}
-		ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+@media screen and (min-width: 1000px) {    
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:25%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 	}

@@ -1,4 +1,5 @@
 @media screen {
+
 body {background-image: url(nycskyline.jpg); 
 	background-repeat: no-repeat;}
 
@@ -6,6 +7,7 @@ ul {list-style-type:none;
 	margin:0; 
 	padding:0; 
 	clear:left;}
+	
 ul li {float:left; 
 	width:100%;}
 
@@ -21,28 +23,63 @@ img {float:left;
 	max-width:40%; 
 	margin:15px;}
 
-.banner {text-align:center; font-size:3em; letter-spacing:20px; letter-spacing:10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:0px; color:red;}
+.banner {text-align:center; 
+	font-size:3em; 
+	letter-spacing:20px; 
+	letter-spacing:10px; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	margin-top:0px; 
+	color:red;}
 
-p {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; padding:20px;}
+p {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	padding:20px;}
 
-footer {border-top:2px solid black; clear:both;}
+footer {border-top:2px solid black; 
+	clear:both;}
 
-.site-footer {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:small; position:relative; padding:10px;}
+.site-footer {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:small; 
+	position:relative; 
+	padding:10px;}
 
 }
 
 @media screen and (min-width: 700px){
 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-	ul li {float:left; width:50%;}
-	ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:50%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 }
 
 
 @media screen and (min-width: 1000px) { 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-	ul li {float:left; width:25%;}
-	ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:25%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 }
