@@ -41,6 +41,15 @@ footer {border-top:2px solid black;
 	font-size:small; 
 	position:relative; 
 	padding:10px;}
+	
+.flatironpic {float:left; 
+	padding:10px; 
+	margin-bottom:20px; 
+	width:100%;}
+
+.flatirontext {float:left; 
+	padding:10px; 
+	margin-bottom:20px;}
 
 }
 
@@ -61,6 +70,13 @@ ul li a {display:block;
 	color:white; 
 	background-color:red; 
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.flatironpic {float:left; 
+	width:29%; 
+	margin-right:3%}
+
+.flatirontext {float:left; 
+	width:62%;}
 
 }
 
