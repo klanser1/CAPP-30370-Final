@@ -17,7 +17,7 @@
 		ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 	@-webkit-keyframes pulse {15% {-webkit-transform:translate(10px, 10px) scale(1.15);} }
-		.timessquare {transition:all 1s ease-in-out; -webkit-animation:pulse 3s ease-in-out infinite;}
+		.timessquare {transition:all 3s ease-in-out; -webkit-animation:pulse 3s ease-in-out infinite;}
 	
 	.radiocity:hover {-webkit-transform:skewX(20deg);}
 	}
