@@ -1,11 +1,25 @@
 @media screen {
-body {background-image: url(nycskyline.jpg); background-repeat: no-repeat;}
+body {background-image: url(nycskyline.jpg); 
+	background-repeat: no-repeat;}
 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-	ul li {float:left; width:100%;}
-	ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+ul li {float:left; 
+	width:100%;}
 
-img {float:left; max-width:40%; margin:15px;}
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+img {float:left; 
+	max-width:40%; 
+	margin:15px;}
 
 .banner {text-align:center; font-size:3em; letter-spacing:20px; letter-spacing:10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:0px; color:red;}
 

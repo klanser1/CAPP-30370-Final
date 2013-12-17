@@ -1,36 +1,89 @@
 @media screen {
-body {background-image: url(nycskyline.jpg); background-repeat: no-repeat;}
 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-	ul li {float:left; width:100%;}
-	ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+body {background-image: url(nycskyline.jpg); 
+	background-repeat: no-repeat;}
 
-.banner {text-align:center; font-size:3em; letter-spacing:20px; letter-spacing:10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:0px; color:red;}
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
 
-.quote {text-align:center; width:33.3%; margin-left:33.3%; margin-right:33.3%; margin-top:4em; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:1em; padding:20px;}
+ul li {float:left; 
+	width:100%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
-img {width:250px; height:375px; max-width:100%;}
+.banner {text-align:center; 
+	font-size:3em; 
+	letter-spacing:20px; 
+	letter-spacing:10px; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	margin-top:0px; 
+	color:red;}
 
-footer {border-top:2px solid black; clear:both;}
+.quote {text-align:center; 
+	width:33.3%; 
+	margin-left:33.3%; 
+	margin-right:33.3%; 
+	margin-top:4em; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:1em; 
+	padding:20px;}
 
-.site-footer {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:small; position:relative; padding:10px;}
+img {width:250px; 
+	height:375px; 
+	max-width:100%;}
 
+footer {border-top:2px solid black; 
+	clear:both;}
+
+.site-footer {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size:small; 
+	position:relative; 
+	padding:10px;}
 }
 
 @media screen and (min-width: 700px){
 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-	ul li {float:left; width:50%;}
-	ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:50%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 }
 
 
 @media screen and (min-width: 1000px) { 
 
-ul {list-style-type:none; margin:0; padding:0; clear:left;}
-
-ul li {float:left; width:25%;}
-
-ul li a {display:block; text-align:center; padding:10px 10px; margin:5px; color:white; background-color:red; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
-
+ul {list-style-type:none; 
+	margin:0; 
+	padding:0; 
+	clear:left;}
+	
+ul li {float:left; 
+	width:25%;}
+	
+ul li a {display:block; 
+	text-align:center; 
+	padding:10px 10px; 
+	margin:5px; 
+	color:white; 
+	background-color:red; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 }

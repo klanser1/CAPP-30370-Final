@@ -9,6 +9,6 @@ console.log (window.innerWidth);
 
 header = $('#header');
 	$(header).on('click', function() {
-		console.log( 'Width: ' + header.width() );
-		console.log( 'Height: ' + header.height() );
+		console.log( 'Width: ' + children.('header').width() );
+		console.log( 'Height: ' + children.('header').height() );
 		});
