@@ -15,7 +15,7 @@
   var $this = $(this);
 	console.log('Alt Text: ', $(this).text());
 	console.log('Color: ', $(this).css('color'));
-	console.log('Font-size: ', $(this).css('color'));
+	console.log('Font-size: ', $(this).css('font-size'));
   });
   
 
