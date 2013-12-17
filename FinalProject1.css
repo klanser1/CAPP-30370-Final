@@ -20,7 +20,7 @@ ul li a {display:block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 img {float:left; 
-	max-width:40%; 
+	max-width:100%; 
 	margin:15px;}
 
 .banner {text-align:center; 
